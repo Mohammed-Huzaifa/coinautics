@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Fonts (better to use next/font for optimization) */
+@import url('https://fonts.googleapis.com/css2?family=Clash+Grotesk:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('../assets/fonts/ClashGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('../assets//fonts/ClashGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: theme('colors.neutral.50');
+  color: theme('colors.neutral.900');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Utility Classes */
+.text-gradient {
+  background: linear-gradient(90deg, #5757FF, #D0CEFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadow-brand {
+  box-shadow: 0 4px 20px rgba(87, 87, 255, 0.4);
+}

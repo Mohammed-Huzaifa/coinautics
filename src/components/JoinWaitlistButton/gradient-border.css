@@ -1,0 +1,24 @@
+/* src/components/JoinWaitlistButton/gradient-border.css */
+
+@keyframes gradient-x {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .gradient-border {
+    background: linear-gradient(
+      270deg,
+      #5757FF,
+      #9A57FF,
+      #57FFD3
+    );
+    background-size: 200% 200%;
+    animation: gradient-x 6s ease infinite;
+    padding: 2px; /* border thickness */
+    border-radius: 9999px; /* fully rounded */
+  }
+  
