@@ -5,6 +5,7 @@ import ThirdSection from "@/components/3rdSection/what_do_we_do";
 import WhoWeDoItForSection from "@/components/4thSection/WhoDoWeDoItFor";
 import HowWeDo from "@/components/5thSection/HowWeDo";
 import HowItWorksSection  from "@/components/6thSectionn/HowItWorksSection";
+import WhoWeServe from "@/components/7thSection/WhoWeServe";
 // import FoundationButton from "@/components/CTA_Button/FoundationButton";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <WhoWeDoItForSection />
       <HowWeDo />
       <HowItWorksSection />
+      <WhoWeServe />
       {/* <FoundationButton /> */}
     </main>
   );
