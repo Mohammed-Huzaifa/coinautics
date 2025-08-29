@@ -111,8 +111,8 @@ export const FRAME_CONTENT: Record<
       <div className="h-10 w-10 rounded-full bg-[#E6E8FF] flex items-center justify-center text-[#5F67FF]">
         {/* Bars (analytics) */}
         <svg
-          width="14"
-          height="14"
+          width="20"
+          height="20"
           viewBox="0 0 14 14"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -132,8 +132,8 @@ export const FRAME_CONTENT: Record<
       <div className="h-10 w-10 rounded-full bg-[#E6E8FF] flex items-center justify-center text-[#5F67FF]">
         {/* Network (platforms/protocols) */}
         <svg
-          width="14"
-          height="14"
+          width="20"
+          height="20"
           viewBox="0 0 14 14"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

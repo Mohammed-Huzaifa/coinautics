@@ -42,7 +42,7 @@ export default function Navbar() {
           }`}
         >
           <Link href="/">Home</Link>
-          <Link href="/about">About us</Link>
+          <Link href="/about-us">About Us</Link>
           <Link href="/blogs">Blogs</Link>
         </motion.div>
 
