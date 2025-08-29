@@ -6,6 +6,9 @@ import WhoWeDoItForSection from "@/components/4thSection/WhoDoWeDoItFor";
 import HowWeDo from "@/components/5thSection/HowWeDo";
 import HowItWorksSection  from "@/components/6thSectionn/HowItWorksSection";
 import WhoWeServe from "@/components/7thSection/WhoWeServe";
+// import CTA_Section from "@/components/CTA_Section/CTA_Section";
+import CTASection from "@/components/CTA_Section/CTA_Section";
+import Footer from "@/components/Footer/Footer";
 // import FoundationButton from "@/components/CTA_Button/FoundationButton";
 
 export default function Home() {
@@ -19,6 +22,8 @@ export default function Home() {
       <HowWeDo />
       <HowItWorksSection />
       <WhoWeServe />
+      <CTASection />
+      <Footer />
       {/* <FoundationButton /> */}
     </main>
   );

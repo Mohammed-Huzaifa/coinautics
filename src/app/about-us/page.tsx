@@ -3,6 +3,8 @@ import HeroSection from "@/components/About/HeroSection/HeroSection"
 import SecondSection from "@/components/About/2ndSection/SecondSection";
 import AudiencesSection from "@/components/7thSection/WhoWeServe";
 import ThirdSection from "@/components/About/3rdSection/ThirdSection";
+import Footer from "@/components/Footer/Footer";
+
 
 export default function AboutPage() {
   return (
@@ -12,6 +14,7 @@ export default function AboutPage() {
       <SecondSection />
       <ThirdSection />
       <AudiencesSection />
+      <Footer />
     </main>
   );
 }
