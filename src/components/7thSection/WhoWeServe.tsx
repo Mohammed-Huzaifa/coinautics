@@ -48,7 +48,7 @@ export default function AudiencesSection() {
         zIndex={0}
         frames={[
           { key: "cryptoTraders",       desktop: { top: 120, left: 360 } },
-          { key: "influencers",         desktop: { top: -20,  left: 840 } },
+          { key: "influencers",         desktop: { top: 20,  left: 840 } },
           { key: "institutions",        desktop: { top: 120, left: 1340 } },
           { key: "analysts",            desktop: { top: 380, left: 520 } },
           { key: "platformsProtocols",  desktop: { top: 360, left: 1240 } },
