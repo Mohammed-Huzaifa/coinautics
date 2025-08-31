@@ -48,7 +48,7 @@ export default function Navbar() {
 
         {/* Request Demo Button */}
         <Link
-          href="/demo"
+          href="/contact"
           className="ml-auto bg-white text-black rounded-full px-5 py-1.5 font-medium text-sm shadow-md"
         >
           Request a Demo
